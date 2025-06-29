@@ -26,6 +26,35 @@ import java.time.LocalDateTime;
     public int getTableId() {
         return tableId;
     }
+
+    public int getCapacity() {
+        return capacity;
+    }
+
+    public Reservation getCurrentReservation() {
+        return currentReservation;
+    }
+
+    public boolean isOccupied() {
+        return occupied;
+    }
+    
+
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
+    public void setCurrentReservation(Reservation currentReservation) {
+        this.currentReservation = currentReservation;
+    }
+
+    public void setOccupied(boolean occupied) {
+        this.occupied = occupied;
+    }
+
+    public void setTableId(int tableId) {
+        this.tableId = tableId;
+    }
+    
               
           
 

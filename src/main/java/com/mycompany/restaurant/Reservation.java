@@ -58,6 +58,12 @@ public class Reservation {
     public void setSeatTime(LocalDateTime seatTime) {
         this.seatTime = seatTime;
     }
+    public void setName(String name) {
+        this.name = name;
+    }
+    public void setPartySize(int partySize) {
+        this.partySize = partySize;
+    }
 
     public void setReservation(ReservationStatus status) {
         this.reservation = status;
