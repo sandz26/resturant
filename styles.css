@@ -7,16 +7,16 @@
 
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    line-height: 1.6;
+    line-height: 1.4;
     color: #333;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     min-height: 100vh;
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 15px;
     background: white;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
@@ -28,9 +28,9 @@ body {
 .header {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 40px;
+    padding: 25px;
     border-radius: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     position: relative;
     overflow: hidden;
 }
@@ -51,47 +51,48 @@ body {
     z-index: 1;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    gap: 20px;
     align-items: center;
 }
 
 .profile-info h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 700;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .profile-info h2 {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 400;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     opacity: 0.9;
 }
 
 .location {
-    font-size: 1rem;
+    font-size: 0.9rem;
     opacity: 0.8;
 }
 
 .location i {
-    margin-right: 8px;
+    margin-right: 6px;
 }
 
 .contact-info {
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    gap: 8px;
 }
 
 .contact-item {
     color: white;
     text-decoration: none;
-    padding: 8px 0;
+    padding: 4px 0;
     transition: all 0.3s ease;
     display: flex;
     align-items: center;
     font-weight: 500;
+    font-size: 0.9rem;
 }
 
 .contact-item:hover {
@@ -100,17 +101,17 @@ body {
 }
 
 .contact-item i {
-    margin-right: 10px;
-    width: 20px;
+    margin-right: 8px;
+    width: 16px;
     text-align: center;
 }
 
 /* Section Styles */
 .section {
-    margin-bottom: 40px;
-    padding: 30px;
+    margin-bottom: 25px;
+    padding: 20px;
     background: #f8f9fa;
-    border-radius: 15px;
+    border-radius: 12px;
     border-left: 4px solid #667eea;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -121,34 +122,34 @@ body {
 }
 
 .section-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: 600;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     color: #2d3748;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
 }
 
 .section-title i {
     color: #667eea;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 /* Summary Styles */
 .summary {
-    font-size: 1.1rem;
-    line-height: 1.7;
+    font-size: 1rem;
+    line-height: 1.5;
     color: #4a5568;
     text-align: justify;
 }
 
 /* Experience Styles */
 .experience-item {
-    margin-bottom: 30px;
-    padding: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
     background: white;
-    border-radius: 10px;
+    border-radius: 8px;
     border-left: 3px solid #667eea;
     transition: transform 0.3s ease;
 }
@@ -161,43 +162,44 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 8px;
 }
 
 .job-title {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
     color: #2d3748;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 .company {
     font-weight: 500;
     color: #667eea;
-    font-size: 1rem;
+    font-size: 0.95rem;
 }
 
 .duration {
     background: #e2e8f0;
-    padding: 4px 12px;
-    border-radius: 20px;
-    font-size: 0.9rem;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
     color: #4a5568;
     font-weight: 500;
 }
 
 .location-small {
     color: #718096;
-    font-size: 0.9rem;
-    margin-bottom: 10px;
+    font-size: 0.85rem;
+    margin-bottom: 8px;
 }
 
 .company-description {
     font-style: italic;
     color: #718096;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
 }
 
 .achievements {
@@ -206,10 +208,12 @@ body {
 }
 
 .achievements li {
-    padding: 8px 0;
-    padding-left: 20px;
+    padding: 4px 0;
+    padding-left: 16px;
     position: relative;
     color: #4a5568;
+    font-size: 0.9rem;
+    line-height: 1.4;
 }
 
 .achievements li::before {
@@ -222,10 +226,10 @@ body {
 
 /* Education Styles */
 .education-item {
-    margin-bottom: 20px;
-    padding: 15px;
+    margin-bottom: 15px;
+    padding: 12px;
     background: white;
-    border-radius: 10px;
+    border-radius: 8px;
     border-left: 3px solid #48bb78;
     transition: transform 0.3s ease;
 }
@@ -239,58 +243,58 @@ body {
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 8px;
 }
 
 .degree {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #2d3748;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 .institution {
     font-weight: 500;
     color: #48bb78;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
-/* Skills Styles */
+/* Skills Styles - Compact Grid */
 .skills-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 25px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
 }
 
 .skill-category {
     background: white;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 15px;
+    border-radius: 8px;
     border-left: 3px solid #ed8936;
 }
 
 .skill-category h4 {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #2d3748;
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 6px;
 }
 
 .skill-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: 8px;
+    gap: 6px;
 }
 
 .skill-tag {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
-    padding: 6px 12px;
-    border-radius: 20px;
-    font-size: 0.9rem;
+    padding: 4px 10px;
+    border-radius: 15px;
+    font-size: 0.8rem;
     font-weight: 500;
     transition: transform 0.3s ease;
 }
@@ -299,17 +303,17 @@ body {
     transform: scale(1.05);
 }
 
-/* Certifications Styles */
+/* Certifications Styles - Compact Grid */
 .certifications-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
 }
 
 .certification-item {
     background: white;
-    padding: 20px;
-    border-radius: 10px;
+    padding: 12px;
+    border-radius: 8px;
     border-left: 3px solid #f56565;
     transition: transform 0.3s ease;
 }
@@ -319,24 +323,24 @@ body {
 }
 
 .certification-item h4 {
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-weight: 600;
     color: #2d3748;
-    margin-bottom: 8px;
+    margin-bottom: 5px;
 }
 
 .issuer {
     color: #f56565;
     font-weight: 500;
-    font-size: 0.9rem;
+    font-size: 0.8rem;
 }
 
 /* Volunteering Styles */
 .volunteering-item {
-    margin-bottom: 25px;
-    padding: 20px;
+    margin-bottom: 15px;
+    padding: 15px;
     background: white;
-    border-radius: 10px;
+    border-radius: 8px;
     border-left: 3px solid #9f7aea;
     transition: transform 0.3s ease;
 }
@@ -349,42 +353,43 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 8px;
 }
 
 .role {
-    font-size: 1.1rem;
+    font-size: 1rem;
     font-weight: 600;
     color: #2d3748;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 .organization {
     font-weight: 500;
     color: #9f7aea;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .volunteering-item p {
     color: #4a5568;
-    line-height: 1.6;
+    line-height: 1.4;
+    font-size: 0.9rem;
 }
 
 /* Interests Styles */
 .interests-grid {
     display: flex;
     flex-wrap: wrap;
-    gap: 12px;
+    gap: 8px;
 }
 
 .interest-tag {
     background: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
     color: white;
-    padding: 8px 16px;
-    border-radius: 25px;
-    font-size: 0.95rem;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
     font-weight: 500;
     transition: all 0.3s ease;
 }
@@ -398,26 +403,26 @@ body {
 @media (max-width: 768px) {
     .container {
         margin: 10px;
-        padding: 15px;
+        padding: 10px;
         border-radius: 15px;
     }
     
     .header {
-        padding: 25px;
+        padding: 20px;
     }
     
     .header-content {
         grid-template-columns: 1fr;
-        gap: 20px;
+        gap: 15px;
         text-align: center;
     }
     
     .profile-info h1 {
-        font-size: 2rem;
+        font-size: 1.8rem;
     }
     
     .profile-info h2 {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
     
     .contact-info {
@@ -425,7 +430,7 @@ body {
     }
     
     .section {
-        padding: 20px;
+        padding: 15px;
     }
     
     .experience-header,
@@ -450,11 +455,11 @@ body {
 
 @media (max-width: 480px) {
     .profile-info h1 {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
     
     .section-title {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     
     .skill-tags,
@@ -463,27 +468,161 @@ body {
     }
 }
 
-/* Print Styles */
+/* Print Styles - Optimized for 2 pages */
 @media print {
     body {
         background: white;
+        font-size: 11pt;
+        line-height: 1.3;
     }
     
     .container {
         box-shadow: none;
         margin: 0;
-        padding: 20px;
+        padding: 10px;
+        max-width: none;
+        border-radius: 0;
     }
     
     .header {
         background: #667eea !important;
         -webkit-print-color-adjust: exact;
         color-adjust: exact;
+        padding: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .profile-info h1 {
+        font-size: 18pt;
+        margin-bottom: 3px;
+    }
+    
+    .profile-info h2 {
+        font-size: 12pt;
+        margin-bottom: 8px;
+    }
+    
+    .contact-info {
+        gap: 4px;
+    }
+    
+    .contact-item {
+        font-size: 9pt;
+        padding: 2px 0;
     }
     
     .section {
         break-inside: avoid;
         page-break-inside: avoid;
+        margin-bottom: 15px;
+        padding: 12px;
+        background: #f8f9fa;
+    }
+    
+    .section-title {
+        font-size: 14pt;
+        margin-bottom: 10px;
+    }
+    
+    .summary {
+        font-size: 10pt;
+        line-height: 1.3;
+    }
+    
+    .experience-item,
+    .education-item,
+    .volunteering-item {
+        margin-bottom: 12px;
+        padding: 10px;
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+    
+    .job-title,
+    .degree,
+    .role {
+        font-size: 11pt;
+        margin-bottom: 2px;
+    }
+    
+    .company,
+    .institution,
+    .organization {
+        font-size: 10pt;
+    }
+    
+    .duration {
+        font-size: 8pt;
+        padding: 2px 8px;
+    }
+    
+    .achievements li {
+        font-size: 9pt;
+        padding: 2px 0;
+        padding-left: 12px;
+        line-height: 1.2;
+    }
+    
+    .skills-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    
+    .skill-category {
+        padding: 10px;
+    }
+    
+    .skill-category h4 {
+        font-size: 10pt;
+        margin-bottom: 6px;
+    }
+    
+    .skill-tag {
+        font-size: 7pt;
+        padding: 2px 6px;
+    }
+    
+    .certifications-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 8px;
+    }
+    
+    .certification-item {
+        padding: 8px;
+    }
+    
+    .certification-item h4 {
+        font-size: 9pt;
+    }
+    
+    .issuer {
+        font-size: 7pt;
+    }
+    
+    .interests-grid {
+        gap: 6px;
+    }
+    
+    .interest-tag {
+        font-size: 8pt;
+        padding: 4px 8px;
+    }
+    
+    /* Force page breaks to optimize for 2 pages */
+    .section:nth-child(4) {
+        page-break-before: always;
+    }
+    
+    /* Hide hover effects in print */
+    .section:hover,
+    .experience-item:hover,
+    .education-item:hover,
+    .volunteering-item:hover,
+    .certification-item:hover,
+    .skill-tag:hover,
+    .interest-tag:hover {
+        transform: none;
+        box-shadow: none;
     }
 }
 
